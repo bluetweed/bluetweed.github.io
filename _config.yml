@@ -59,6 +59,8 @@ dribbble_url:
 # Google Analytics Tracking ID goes here:
 google_analytics:
 
-# The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
+# The following settings are NECESSARY for the Prologue theme to run locally using the gem.
+# For GitHub Pages, since you have the theme files (_layouts, _includes, etc.) directly in your repo,
+# you should comment out the theme line below, or use remote_theme: chrisbobbe/jekyll-theme-prologue.
+# theme: jekyll-theme-prologue
 collections: [sections]
